@@ -38,11 +38,17 @@ router.post('/', async (req, res) => {
   // req.body should probably look like this?
   // {
   //   "tag_name": "Scuba Gear",
-  //   "products": [1,2],
   // }
+  try {
+  const newTag = await Tag.create({
+    tag_name: req.body.tag_name
+  })
+  res.status(200).json(newTag);
+  } catch (err) {
+    res.status(500).json(err);
+  } 
 
-  Tag.create(req.body)
-    .then()
+
 });
 
 router.put('/:id', (req, res) => {
