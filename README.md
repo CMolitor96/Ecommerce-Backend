@@ -37,6 +37,8 @@ Please click the license badge for more information on the license under which t
 ## Project Usage:
 Once program has been fully started and you are in Insomia, simply navigate to the desired URL, whether its /api/categories, /api/products, or /api/tags, and perform your get, post, put, and delete operations. Please remember to inclue JSON bodies when performing post and put operations. Examples of JSON bodies are in comments in the respective routes files. 
 
+Walkthrough Video: https://drive.google.com/file/d/1Sg0s52rQoWHywqcA3gMQvZ0P_4nZD3U6/view
+
 Successfull GET request of all categories:
 <img width="1026" alt="Screen Shot 2022-09-14 at 8 53 52 PM" src="https://user-images.githubusercontent.com/103666997/190310667-2d83b8e2-13b1-40c7-bed2-f7412868f2a9.png">
 
