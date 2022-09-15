@@ -18,7 +18,14 @@ Once project is on your local machine, and all dependencies have been downloaded
 
 First step is to add your credentials to an .env file according to the variable names in connection.js, then open up MYSQL and source the schema.sql file to initiate the database.
 
+Sourcing schema.sql:
+<img width="290" alt="Screen Shot 2022-09-14 at 8 34 11 PM" src="https://user-images.githubusercontent.com/103666997/190310825-75e17c13-9fe3-4fd4-a3ca-d6644adf5681.png">
+
+
 Second step is to seed the database by running node with the index.js file located in the seeds folder.
+Successfull seed:
+<img width="1045" alt="Screen Shot 2022-09-14 at 8 35 24 PM" src="https://user-images.githubusercontent.com/103666997/190310494-f1758a06-7540-492c-bd1f-4fd33585bdc7.png">
+
 
 Third and final step is to start the server with npm start, then go to Insomnia to perform all CRUD operations.
 
@@ -26,8 +33,16 @@ Third and final step is to start the server with npm start, then go to Insomnia 
 ## License:
 Please click the license badge for more information on the license under which this project is covered.
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## Project Usage:
 Once program has been fully started and you are in Insomia, simply navigate to the desired URL, whether its /api/categories, /api/products, or /api/tags, and perform your get, post, put, and delete operations. Please remember to inclue JSON bodies when performing post and put operations. Examples of JSON bodies are in comments in the respective routes files. 
+
+Successfull GET request of all categories:
+<img width="1026" alt="Screen Shot 2022-09-14 at 8 53 52 PM" src="https://user-images.githubusercontent.com/103666997/190310667-2d83b8e2-13b1-40c7-bed2-f7412868f2a9.png">
+
+Successfull POST request of a category from a JSON style input:
+<img width="1024" alt="Screen Shot 2022-09-14 at 8 54 33 PM" src="https://user-images.githubusercontent.com/103666997/190310735-9b62d442-eec8-491e-98fe-76653983c649.png">
+
 
 
 ## Questions:
